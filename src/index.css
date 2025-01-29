@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #000300;
+}
+
+.bla_bla li{
+  position: relative;
+}
+
+.bla_bla li::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  bottom: 0px;
+  left: 0px;
+  background: linear-gradient(45deg, #ff6b6b69, #a05fff3b);
+}
+
