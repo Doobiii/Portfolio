@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 import { MdWavingHand } from "react-icons/md";
 import { BiLinkExternal } from "react-icons/bi";
 
@@ -18,7 +18,7 @@ function Hero() {
                     <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
                         I am a
                     </p>
-                    <Typed
+                    <ReactTyped
                         className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
                         strings={["Developer", "Programmer"]}
                         typeSpeed={80}
