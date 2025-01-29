@@ -135,7 +135,7 @@ function Projects() {
 
                     <div className="flex pt-[4.5rem]">
                         <a
-                            href="https://github.com/Dimpal-Kalita/Personal_Portfolio"
+                            href="https://portfolio-phi-three-58.vercel.app/"
                             target="_blank"
                             rel="noreferrer"
                             className="mx-auto">
@@ -146,7 +146,7 @@ function Projects() {
                         </a>
 
                         <a
-                            href="https://github.com/Dimpal-Kalita/Personal_Portfolio"
+                            href="https://github.com/Doobiii/Portfolio"
                             target="_blank"
                             rel="noreferrer"
                             className="mx-auto">
